@@ -1,0 +1,132 @@
+body{
+    background-color: grey;
+    margin: 0px;
+    border: 0px;
+}
+.fix{
+    height: 100px;
+    width: 500px;
+    border: 5px solid red;
+    border-radius:10px;
+    background-color:greenyellow;
+    color: black;
+    font-weight: bold;
+    font-size:25px;
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 600px;
+    margin-left:465px;
+    box-shadow: 10px 10px 5px blue;
+}
+.welcome{
+    width: 400px;
+    height: 125px;
+    border: 7px solid red ;
+    background-color: white;
+    border-radius:10px;
+    margin-left:590px;
+    margin-top:15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: chocolate;
+    font-size: 25px;
+    font-style: italic;
+    line-height:30px;
+    box-shadow: 10px 10px 5px blue;
+    text-shadow: 2px 2px 1px chocolate;
+}
+.main-container{
+    margin-top: 15px;
+    border: 8px solid green;  
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    background-color: aliceblue;
+    width: 220px;
+    height:250px;
+    border: 7px solid red;
+    border-radius: 10px;
+    color: blue;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 5px blue;
+    text-shadow: 2px 2px 0.5px black;
+}
+.box1{
+    margin-left: 5px;
+}
+h4{
+    font-size: 25px;
+    line-height:40px;
+    font-weight: bold;
+}
+.box2{
+    margin-right:50px;
+}
+img{
+    width: 200px;
+    height: 160px;
+    margin-left: 5px;
+    margin-top: 40px;
+    border: 2px solid black;
+}
+.box3{
+    margin-left: 5px;
+}
+h3{
+    font-size: 23px;
+    font-weight: bold;
+}
+.box4{
+    margin-right:50px;
+}
+h2{
+    font-size: 25px;
+}
+.rate{
+    width:100px;
+    height:20px;
+    text-align: center;
+}
+button{
+    border: 1px solid black;
+    background-color: brown;
+    border-radius: 20px;
+}
+.main-container2{
+    width: 500px;
+    height: 500px;
+    background-color:green;
+    border: 5px solid purple;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left:33%;
+}
+.fruits{
+    display: flex;
+    text-align: center;
+}
+.eat1{
+    margin-right: 10px;
+}
+.eat{
+    width: 240px;
+    height: 200px;
+    background-color: orange;
+    line-height:20px;
+}
+.eat3{
+    width: 500px;
+    text-align: center;
+}
